@@ -1,4 +1,8 @@
 # PROJETO .NET MAUI - LOGIN
+
+### LINGUAGEM C# 8.0
+### FRAMEWORK .NET MAUI
+
 ### UTILIZANDO OS SEGUINTES RECURSOS
 * Navigation Page
 * Tabbeds Page com GUIA (DOWN)
