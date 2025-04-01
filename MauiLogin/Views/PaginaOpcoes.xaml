@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLogin.Views.PaginaOpcoes"
+             SelectedTabColor="#2B0B98"
+             UnselectedTabColor="Gray"
+             BarBackgroundColor="Lavender"
+             Title="Home">
+
+
+    <ContentPage Title="Home" IconImageSource="home.svg">
+        <StackLayout>
+            <Label Text="Pagina Principal" FontSize="30" 
+                   FontFamily="RobotoBold"
+                   HorizontalTextAlignment="Center" />
+
+            <Label Text="Acompanhe nossas métricas"
+                   FontFamily="Roboto"
+                   FontSize="14"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"
+                   />
+           
+
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Servicos" IconImageSource="pedido.svg">
+        <StackLayout>
+            <Label Text="Pagina de Serviços" FontSize="30" 
+                   FontFamily="RobotoBold"
+                   HorizontalTextAlignment="Center" />
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Sobre" IconImageSource="coroa.svg">
+        <StackLayout>
+            <Label Text="Sobre o APP" FontSize="30" 
+                   FontFamily="RobotoBold"
+                   HorizontalTextAlignment="Center" />
+        </StackLayout>
+    </ContentPage>
+
+
+</TabbedPage>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLogin.Login"
+             Title="Login" BackgroundImageSource="fundologin.jpg">
+    
+    <VerticalStackLayout>
+        
+        <Label 
+            Margin="0,10,0,0"
+            Text="TITULO DO SOFTWARE"
+            FontFamily="RobotoBold" 
+            TextColor="#FFFFFF"
+            FontSize="25"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label Text="Descrição ou resumo do tema"
+               FontSize="14" TextColor="#FFFFFF"
+               FontFamily="RobotoBold" FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               />
+
+        <Image Source="login.png" Margin="0,30,0,0" Aspect="AspectFill" HeightRequest="80" WidthRequest="80" />
+
+        <Frame BackgroundColor="White" Opacity="0.7" BorderColor="#2B0B98" 
+               HasShadow="True" Padding="20" Margin="30,40,30,0" >
+            <StackLayout>
+                <Label Text="Usuário" FontSize="14" 
+                       FontAttributes="Bold" 
+                       TextColor="#2B0B98" Margin="0,20,0,-10"/>
+                <Entry x:Name="txtUsuario" Keyboard="Email" TextColor="White"
+                       />
+
+                <Label Text="Senha" Margin="0,20,0,-10" FontSize="14" FontAttributes="Bold" TextColor="#2B0B98"/>
+                <Entry x:Name="txtSenha" Keyboard="Numeric" TextColor="White" />
+
+                <Button Text="Login" 
+                        Clicked="btnLogin" BackgroundColor="#2B0B98" TextColor="White"
+                        FontSize="20" Margin="80,20,80,0"
+                />
+                <Button Text="Esqueci a senha" BackgroundColor="Transparent" TextColor="#2B0B98" />
+
+            </StackLayout>
+        </Frame>
+
+
+
+        <Label Text="By Fukuta(R) 2025"
+               TextColor="#FFFFFF"
+               FontFamily="RobotoBold"
+               HorizontalTextAlignment="Center" 
+               VerticalTextAlignment="End" 
+               HeightRequest="250" />
+
+
+    </VerticalStackLayout>
+</ContentPage>
